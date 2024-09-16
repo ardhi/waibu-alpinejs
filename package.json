@@ -1,0 +1,34 @@
+{
+  "name": "waibu-alpinejs",
+  "version": "1.0.0",
+  "description": "Alpine.js support for Waibu MPA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardhi/waibu-alpinejs.git"
+  },
+  "keywords": [
+    "alpinejs",
+    "mpa",
+    "waibu",
+    "web",
+    "webserver",
+    "bajo",
+    "framework",
+    "fastify",
+    "modular"
+  ],
+  "author": "Ardhi Lukianto <ardhi@lukianto.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ardhi/waibu-alpinejs/issues"
+  },
+  "homepage": "https://github.com/ardhi/waibu-alpinejs#readme",
+  "dependencies": {
+    "alpinejs": "^3.14.1"
+  }
+}
