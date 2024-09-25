@@ -1,5 +1,5 @@
-function keyAttrHandler (key) {
+function retainAttrKey (key) {
   return key.startsWith('x-') || key.includes(':') || key.startsWith('@')
 }
 
-export default keyAttrHandler
+export default retainAttrKey

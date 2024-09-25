@@ -1,5 +1,5 @@
 {
-  "alias": "wbalpine",
+  "alias": "walpine",
   "plugins": [],
   "dependencies": ["waibu-static"]
 }

@@ -1,6 +1,6 @@
 # waibu-alpinejs
 
-Plugin name: **waibuAlpinejs**, alias: **wbalpine**
+Plugin name: **waibuAlpinejs**, alias: **walpine**
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/ardhi/waibu-alpinejs) ![NPM Version](https://img.shields.io/npm/v/waibu-alpinejs)
 
