@@ -1,4 +1,4 @@
-async function waibuMpaThemefterInjectScripts ({ items, reply }) {
+async function waibuMpaThemefterInjectScripts ({ items, req }) {
   const { readJson } = this.app.bajo
   const { pick, find, filter, isArray, map } = this.app.bajo.lib._
   items.push(`${this.name}.virtual:/alpinejs/cdn.min.js`)
@@ -8,7 +8,7 @@ async function waibuMpaThemefterInjectScripts ({ items, reply }) {
     items.push(...map(scripts, s => `${this.name}.virtual:/${a.prefix}/${s}`))
   }
   // custom scripts
-  const theme = pick(find(this.app.waibuMpa.themes, { name: reply.request.theme }) ?? {}, ['name', 'framework'])
+  const theme = pick(find(this.app.waibuMpa.themes, { name: req.theme }) ?? {}, ['name', 'framework'])
   if (theme.name === 'bootstrap' || theme.framework === 'bootstrap') {
     items.push('waibuAlpinejs.asset:/js/bootstrap.js')
   }
