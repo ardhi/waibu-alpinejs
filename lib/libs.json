@@ -1,4 +1,37 @@
 [{
-  "prefix": "alpinejs",
-  "root": "alpinejs:/dist"
+  "prefix": "mask",
+  "root": "@alpinejs/mask:/dist",
+  "scripts": "/cdn.min.js"
+}, {
+  "prefix": "intersect",
+  "root": "@alpinejs/intersect:/dist",
+  "scripts": "/cdn.min.js"
+}, {
+  "prefix": "resize",
+  "root": "@alpinejs/resize:/dist",
+  "scripts": "/cdn.min.js"
+}, {
+  "prefix": "persist",
+  "root": "@alpinejs/persist:/dist",
+  "scripts": "/cdn.min.js"
+}, {
+  "prefix": "focus",
+  "root": "@alpinejs/focus:/dist",
+  "scripts": "/cdn.min.js"
+}, {
+  "prefix": "collapse",
+  "root": "@alpinejs/collapse:/dist",
+  "scripts": "/cdn.min.js"
+}, {
+  "prefix": "anchor",
+  "root": "@alpinejs/anchor:/dist",
+  "scripts": "/cdn.min.js"
+}, {
+  "prefix": "morph",
+  "root": "@alpinejs/morph:/dist",
+  "scripts": "/cdn.min.js"
+}, {
+  "prefix": "sort",
+  "root": "@alpinejs/sort:/dist",
+  "scripts": "/cdn.min.js"
 }]

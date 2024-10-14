@@ -1,5 +1,5 @@
 {
   "prefix": "alpinejs",
-  "plugins": [],
+  "plugins": ["mask", "persist"],
   "dependencies": ["waibu-static"]
 }
