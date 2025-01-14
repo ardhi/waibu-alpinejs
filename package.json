@@ -1,6 +1,6 @@
 {
   "name": "waibu-alpinejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Alpine.js support for Waibu MPA",
   "main": "index.js",
   "scripts": {
