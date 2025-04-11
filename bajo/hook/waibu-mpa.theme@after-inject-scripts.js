@@ -6,7 +6,7 @@ async function waibuMpaThemefterInjectScripts ({ items, req }) {
     const scripts = isString(a.scripts) ? [a.scripts] : a.scripts
     items.push(...map(scripts, s => `${this.name}.virtual:/${a.prefix}${s}`))
   }
-  items.push(`${this.name}.virtual:/alpinejs/cdn.min.js`)
+  items.push({ src: `${this.name}.virtual:/alpinejs/cdn.min.js`, defer: true })
   // custom scripts
   /*
   const theme = pick(find(this.app.waibuMpa.themes, { name: req.theme }) ?? {}, ['name', 'framework'])
