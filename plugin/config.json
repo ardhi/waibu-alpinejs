@@ -1,6 +1,0 @@
-{
-  "plugins": ["mask", "persist", "resize"],
-  "waibu": {
-    "prefix": "alpinejs"
-  }
-}
