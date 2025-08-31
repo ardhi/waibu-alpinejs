@@ -1,6 +1,6 @@
 async function waibuMpaThemefterInjectScripts ({ items, req }) {
   const { readJson } = this.app.bajo
-  const { filter, isString, map } = this.lib._
+  const { filter, isString, map } = this.app.lib._
   const all = filter(readJson(`${this.dir.pkg}/lib/libs.json`), f => this.config.plugins.includes(f.prefix))
   for (const a of all) {
     const scripts = isString(a.scripts) ? [a.scripts] : a.scripts
