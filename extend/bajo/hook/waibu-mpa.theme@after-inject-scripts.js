@@ -1,4 +1,4 @@
-async function waibuMpaThemefterInjectScripts ({ items, req }) {
+async function waibuMpaThemeAfterInjectScripts ({ items, req }) {
   const { readJson } = this.app.bajo
   const { filter, isString, map } = this.app.lib._
   const all = filter(readJson(`${this.dir.pkg}/lib/libs.json`), f => this.config.plugins.includes(f.prefix))
@@ -16,4 +16,4 @@ async function waibuMpaThemefterInjectScripts ({ items, req }) {
   */
 }
 
-export default waibuMpaThemefterInjectScripts
+export default waibuMpaThemeAfterInjectScripts
