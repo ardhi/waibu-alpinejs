@@ -9,7 +9,11 @@
   },
   "type": "module",
   "bajo": {
-    "type": "plugin"
+    "type": "plugin",
+    "alias": "walp",
+    "dependencies": [
+      "waibu-static"
+    ]
   },
   "repository": {
     "type": "git",
